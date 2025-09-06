@@ -10,7 +10,11 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.sampleApplication"
+      "bundleIdentifier": "com.anonymous.sampleApplication",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan QR codes.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone for video recording."
+      }
     },
     "android": {
       "adaptiveIcon": {
